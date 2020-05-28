@@ -1,0 +1,259 @@
+/*
+Template Name: beauticastle
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+@media (max-width: 1300px){
+    .tv-banner-title {
+        top: 50%;
+        transform: translate(-12%, -50%);
+    }
+    .tv-service-item-name h4 {
+        font-size: 28px;
+    }
+    .tv-service-item-name h5 {
+        font-size: 62px;
+    }
+    .tv-service-item-name {
+        height: auto !important;
+    }
+}
+@media (max-width: 1199px){
+    .tv-service-item-name {
+        padding: 30px;
+    }
+    .tv-service-item-name h3 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    #banner {
+        min-height: 600px;
+    }
+    .tv-block-heading .small {
+        left: -20px;
+        font-size: 8rem;
+    }
+    .h2-style {
+        font-size: 50px;
+    }
+}
+@media (max-width: 991px){
+    #banner {
+        min-height: 500px;
+    }
+    .tv-banner-title {
+        top: 30%;
+        transform: translate(-10%, -30%);
+        right: 10%;
+    }
+    .tv-banner-title h1 {
+        font-size: 34px;
+    }
+    .tv-banner-title span {
+        font-size: 44px;
+    }
+    .tv-service-item-name {
+        padding: 20px;
+    }
+    .tv-service-item-name h3 {
+        font-size: 16px;
+        line-height: 31px;
+    }
+    .tv-service-item-name h4 {
+        font-size: 22px;
+        margin: 8px 0;
+    }
+    .tv-service-item-name h5 {
+        font-size: 49px;
+    }
+    .tv-counter-details h2 {
+        font-size: 32px;
+        margin: 18px 0;
+    }
+    .tv-counter-details i, .tv-counter-details h4 {
+        font-size: 16px;
+    }
+    .tv-block-heading::before {
+        left: 18px;
+    }
+    .tv-block-heading .small {
+        font-size: 6rem;
+        left: 0;
+        top: -45px;
+    }
+    .h2-style {
+        font-size: 40px;
+    }
+    .tv-block-heading-box {
+        margin-bottom: 100px;
+    }
+    .tv-paddingT120 {
+        padding-top: 100px;
+    }
+    .tv-service-title {
+        font-size: 20px;
+    }
+    .tv-offer-details > h2 {
+        font-size: 32px;
+    }
+    .tv-offer-details > h3 {
+        font-size: 36px;
+        margin: 20px 0 10px;
+    }
+    .tv-news-banner{
+        margin-bottom: 30px;
+    }
+    #myCarousel2 .carousel-control.right {
+        left: 80px;
+    }
+    .footer, .footer-social-links{
+        text-align: center;
+    }
+    .footer-social-links{
+        margin-top: 20px;
+    }
+    .sidenav a {
+        font-size: 18px;
+        padding: 8px 8px 8px 32px;
+    }
+}
+@media (max-width: 767px){
+    #banner {
+        min-height: 400px;
+    }
+    .tv-banner-title {
+        right: 10%;
+        top: 70%;
+        transform: translate(-10%, -70%);
+    }
+    .tv-banner-title h1 {
+        font-size: 26px;
+    }
+    .tv-banner-title span {
+        font-size: 36px;
+    }
+    .tv-banner-title h1::after {
+        margin-top: 15px;
+        width: 50px;
+    }
+    .tv-row-flex {
+        display: inline;
+    }
+    .tv-service-item-name, .tv-why-choose, .tv-why-choose-details, .tv-about-salon, .tv-why-choose-details h2, .tv-news-details, .tv-post-details{
+        text-align: center !important;
+    }
+    .tv-block-heading::before {
+        left: 24px;
+    }
+    .tv-block-heading .small {
+        font-size: 5rem;
+        left: 0;
+        top: -36px;
+    }
+    .h2-style {
+        font-size: 34px;
+        margin-left: 20px;
+    }
+    .tv-service-title {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .tv-offer-details {
+        left: 0;
+        position: relative;
+        top: 0;
+        transform: translate(0%, 0%);
+        padding: 30px 0;
+        text-align: center;
+    }
+    .tv-offer-details > h2::after, .tv-why-choose > h3::after, .tv-about-salon > h3::after, .tv-team-image img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .row-flex, .row-flex > div[class*="col-"] {
+        display: inline;
+    }
+    #myCarousel, .tv-brand-list {
+        background: transparent;
+        display: inline-block;
+        padding: 100px 0;
+    }
+    #myCarousel2 .carousel-control {
+        bottom: 22%;
+    }
+    #myCarousel2 .carousel-control.left {
+        left: 35%;
+    }
+    #myCarousel2 .carousel-control.right {
+        left: 52%;
+    }
+    .tv-news-img img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tv-post-details{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 500px){
+    #banner {
+        min-height: 350px;
+    }
+    .tv-banner-title span {
+        font-size: 30px;
+    }
+    .tv-banner-title h1 {
+        font-size: 22px;
+    }
+    .tv-banner-title {
+        right: 4%;
+        top: 70%;
+        transform: translate(-4%, -70%);
+    }
+    .width-50{
+        width:50%;
+    }
+    .tv-counter-details, .tv-service-details {
+        margin-bottom: 30px;
+    }
+    .gallery-list .nav-tabs > li > a{
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+@media (max-width: 400px){
+    .width50perc{
+        width:50%;
+    }
+    .width-100{
+        width:100%;
+    }
+    .tv-banner-title {
+        right: 3%;
+        top: 30%;
+        transform: translate(-3%, -30%);
+    }
+    .tv-banner-title h1 {
+        font-size: 22px;
+    }
+    .tv-banner-title span {
+        font-size: 24px;
+    }
+    .gallery-list .nav-tabs > li > a {
+        font-size: 12px;
+        padding: 4px;
+    }
+    #myCarousel, .tv-brand-list{
+        padding: 80px 0;
+    }
+}
+@media (max-width: 340px){     
+    .tv-banner-title {
+        right: 3%;
+        top: 50%;
+        transform: translate(-3%, -50%);
+    }
+}
